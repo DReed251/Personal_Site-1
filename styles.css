@@ -14,11 +14,19 @@ h2 {
   color: #20B2AA;
 }
 
+h3 {
+  color: #20B2AA;
+}
+
 hr {
-  border: dotted #EAF6F6 6px;
+  border: dotted lightgrey 6px;
   border-bottom: none;
   width: 4%;
   margin: 50px auto;
+}
+
+.navbar {
+  background-color: #e4f9f5;
 }
 
 .white-h3 {
@@ -73,7 +81,6 @@ hr {
 }
 
 /* Bottom Container */
-
 .avatar-img {
   height: 200px;
   width: 200px;
@@ -100,10 +107,7 @@ hr {
   text-align: right;
 }
 
-
-
 /* Contact Me */
-
 .contact-me {
   margin: 100px 0 100px 0;
 }
@@ -113,7 +117,6 @@ hr {
 }
 
 /* Footer */
-
 .footer {
   background-color: #e4f9f5;
   padding: 30px 0 10px;
@@ -128,7 +131,6 @@ hr {
 .footer-links {
   color: #20B2AA;
   font-size: 130%;
-
 }
 
 .butn {
@@ -147,7 +149,6 @@ hr {
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   font-family: 'Gayathri', sans-serif;
-
 }
 
 .butn:hover {
@@ -158,4 +159,47 @@ hr {
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
+}
+
+/* Timeline page */
+.timeline-top {
+  background-color: #e4f9f5;
+}
+
+.timeline-top-left {
+  width: 180px;
+  height: 160px;
+  transform: rotate(-15deg);
+  margin-top: 50px;
+}
+
+.timeline-top-right {
+  width: 180px;
+  height: 160px;
+  transform: rotate(15deg);
+  margin-top: 50px;
+}
+
+.timeline-top-h1 {
+  margin: 50px 0 90px;
+}
+
+.myself {
+  padding: 70px 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.myself-p-right {
+  width: 40%;
+  padding-right: 10%;
+  margin: 60px;
+  font-size: 1.2rem;
+}
+
+.myself-p-left {
+  width: 40%;
+  padding-left: 10%;
+  margin: 60px;
+  font-size: 1.2rem;
 }
